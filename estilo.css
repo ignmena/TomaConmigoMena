@@ -1,5 +1,6 @@
 .titulo {
-    text-align: center;
-    background-color: darkgrey;
+  text-align: center;
+  background-color: darkgrey;
 }
+.carousel-inner {max-height: 30rem;}
 
