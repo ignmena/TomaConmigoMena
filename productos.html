@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toma Conmigo</title>
     <link rel="shortcut icon" href="img/tomaconmigo.jpg" type="image/x-icon" />
 
@@ -14,104 +14,165 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="estilo.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Toma Conmigo</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Toma Conmigo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="productos.html"
+                >
+                  Productos</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Nuestras Redes
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.instagram.com/tomaconmigo_/"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Youtube</a></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.tiktok.com/@tomaconmigo_"
+                      >TikTok</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="imperial..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1 class="titulo">Nuestros Productos</h1>
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="img/canariasuru-removebg-preview.png"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Yerba Canarias 1kg</h5>
+        <p class="card-text">
+          La Yerba mate Canarias se caracteriza por su hoja pura, finamente
+          molida y su intenso sabor. Producto 100% natural sin agregados
+          artificiales de conservantes ni otros productos químicos. Por esta
+          razón, ocasionalmente, pueden presentarse leves variaciones en el
+          sabor a lo largo del año.
+        </p>
+        <a href="#" class="btn btn-primary">Comprar</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img
+        src="img/imperial-removebg-preview.png"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Imperial Premium</h5>
+        <p class="card-text">
+          Trabajo artesanal en alpaca y cuero, logrando llevar la tradición
+          argentina al maximo en cada mate. Base de 4 patas reforzadas. Fleje
+          cincelado y virola lisa de alpaca. Estas caracteristicas hacen de este
+          mate una excelencia.
+        </p>
+        <a href="#" class="btn btn-primary">Comprar</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-muted">&copy; Toma Conmigo</p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="img/tomaconmigo.jpg" />
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="productos.html" class="nav-link px-2 text-muted"
+              >Productos</a
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="nosotros.html"
-                    >Nosotros</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="productos.html">
-                    Productos</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Nuestras Redes
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="https://www.instagram.com/tomaconmigo_/">Instagram</a></li>
-                    <li><a class="dropdown-item" href="#">Youtube</a></li>
-                    <li><a class="dropdown-item" href="https://www.tiktok.com/@tomaconmigo_">TikTok</a></li>
-                  </ul>
-                </li>
-              </ul>
-  
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="imperial..."
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Buscar
-                </button>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <h1>Nuestros Productos</h1>
-      
-    <main>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-    </main>
-    
-</body>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.instagram.com/tomaconmigo_/"
+              class="nav-link px-2 text-muted"
+              >Instagram</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.tiktok.com/@tomaconmigo_"
+              class="nav-link px-2 text-muted"
+              >TikTok</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
