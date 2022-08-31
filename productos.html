@@ -15,9 +15,9 @@
     />
     <link rel="stylesheet" href="css/estilo.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg text-black bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Toma Conmigo</a>
           <button
@@ -87,7 +87,7 @@
                 placeholder="imperial..."
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-success boton " type="submit">
                 Buscar
               </button>
             </form>
@@ -95,43 +95,83 @@
         </div>
       </nav>
     </header>
-    <h1 class="titulo">Nuestros Productos</h1>
 
-    <div class="card" style="width: 18rem">
-      <img
-        src="img/canariasuru-removebg-preview.png"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Yerba Canarias 1kg</h5>
-        <p class="card-text">
-          La Yerba mate Canarias se caracteriza por su hoja pura, finamente
-          molida y su intenso sabor. Producto 100% natural sin agregados
-          artificiales de conservantes ni otros productos químicos. Por esta
-          razón, ocasionalmente, pueden presentarse leves variaciones en el
-          sabor a lo largo del año.
-        </p>
-        <a href="#" class="btn btn-primary">Comprar</a>
+    <main>
+      <div class="main">
+        <h1>Nuestros Productos</h1>
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img src="FOTOSNUEVAS/bombillaeditada.jpg" />
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">Bombillon macizo</h2>
+                <p class="card_text">
+                  Pico recto ancho y grande Con dibujos tallados a mano el
+                  diseño puede de tallado puede variar Tipo cuchara o pala.
+                  Ideal para yerba uruguaya
+                </p>
+                <button class="btn card_btn">6500$</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img src="FOTOSNUEVAS/canariaseditada.jpg" />
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">Yerba Canarias 1KG</h2>
+                <p class="card_text">
+                  La Yerba mate Canarias se caracteriza por su hoja pura,
+                  finamente molida y su intenso sabor,producto 100% natural.
+                  Fabricada en Uruguay
+                </p>
+                <button class="btn card_btn">1600$</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img src="FOTOSNUEVAS/editadamate.jpg" />
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">Mate Imperial</h2>
+                <p class="card_text">
+                  El mate imperial, protagonista de antiguas costumbres El mate
+                  imperial es una pieza única creada por manos artesanas.
+                  Ninguno es igual a otro (diferentes medidas). Cuero labrado
+                  por nuestros artesanos!
+                </p>
+                <button class="btn card_btn">14000$</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img src="FOTOSNUEVAS/termo-stanley-2jpg.webp" />
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">Termo Stanley</h2>
+                <p class="card_text">
+                  Los termos Stanley están hechos con doble capa de acero
+                  inoxidable de 18/8 ideal para soportar altas temperatura.
+                  
+                </p>
+                <button class="btn card_btn">25000$</button>
+              </div>
+            </div>
+          
+                
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="card" style="width: 18rem">
-      <imgs
-        src="img/imperial-removebg-preview.png"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Imperial Premium</h5>
-        <p class="card-text">
-          Trabajo artesanal en alpaca y cuero, logrando llevar la tradición
-          argentina al maximo en cada mate. Base de 4 patas reforzadas. Fleje
-          cincelado y virola lisa de alpaca. Estas caracteristicas hacen de este
-          mate una excelencia.
-        </p>
-        <a href="#" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
+
+      
+    </main>
 
     <div class="container">
       <footer
