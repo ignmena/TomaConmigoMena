@@ -179,3 +179,26 @@ body {
       font-size: 3em; } }
   body ::selection {
     background: #FFE799; }
+
+.rojo {
+  color: red; }
+
+.verde {
+  color: green; }
+
+.azul {
+  color: blue; }
+
+.mates {
+  background-color: red;
+  font-size: 2rem; }
+
+.numero1, .numero2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center; }
+
+.mates {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: aquamarine; }
