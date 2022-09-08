@@ -1,204 +1,70 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
-.body {
-  background-color: black;
-  color: white; }
-  .body .titulo {
-    text-align: center; }
-  .body .boton {
-    background-color: black; }
+.titulo {
+  text-align: center;
+  background-color: #f08c8c; }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box; }
-
-html {
-  background-color: white; }
-  html body {
-    color: #272727;
-    font-family: 'Quicksand', serif;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    padding: 1rem; }
-  html .main {
-    max-width: 1200px;
-    margin: 0 auto; }
-  html h1 {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center; }
-  html img {
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle; }
-  html .btn {
-    color: white;
-    padding: 0.8rem;
-    font-size: 14px;
-    text-transform: uppercase;
-    border-radius: 4px;
-    font-weight: 400;
-    display: block;
-    width: 100%;
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: transparent; }
-  html .btn:hover {
-    background-color: rgba(255, 255, 255, 0.12); }
-  html .cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-  html .cards_item {
-    display: block;
-    padding: 1rem; }
-  @media (min-width: 40rem) {
-    html .cards_item {
-      width: 50%; } }
-  @media (min-width: 56rem) {
-    html .cards_item {
-      width: 33.3333%; } }
-  html .card {
-    background-color: white;
-    border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden; }
-  html .card_content {
-    padding: 1rem;
-    background-color: black; }
-  html .card_title {
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin: 0px; }
-  html .card_text {
-    color: white;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    margin-bottom: 1.25rem;
-    font-weight: 400; }
-  html .made_by {
-    font-weight: 400;
-    font-size: 13px;
-    margin-top: 35px;
-    text-align: center; }
-
-* {
-  box-sizing: border-box; }
-
-body {
-  color: #222222;
-  font-size: 1em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif; }
-  body a {
-    font-weight: bold;
-    text-decoration: none;
-    color: white; }
-  body a:hover {
-    color: #FFE799; }
-  body a:visited {
-    color: white; }
-  body .masthead,
-  body .introduction,
-  body .location,
-  body .questions,
-  body .content-footer {
-    padding-left: 2em;
-    padding-right: 2em; }
-  body .masthead-intro,
-  body .masthead-heading,
-  body .content-footer > p,
-  body .social {
-    text-align: center; }
-  body .introduction,
-  body .location,
-  body .questions {
-    max-width: 38em;
-    margin-left: auto;
-    margin-right: auto; }
-  body .introduction > p,
-  body .location > p,
-  body .content-footer > p {
-    font-weight: 300;
-    letter-spacing: 0.05em; }
-  body .masthead {
-    padding: 6em 0;
-    background-image: url(fondo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: solid 1em; }
-  body .masthead-intro {
-    margin-bottom: 0.1em;
-    color: #FFFFFF;
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 2em; }
-  body .masthead-heading {
-    margin-top: -0.2em;
-    color: #FFF1C2;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 6em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    text-shadow: 0px 3px 0px #FFCF33; }
-  body .heading {
-    max-width: 19em;
-    margin-top: 2em; }
-  body .question {
-    margin: 2em 0 1em 0;
-    color: white;
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 1.2em;
-    font-weight: bold; }
-  body .answer {
-    margin-left: 0em; }
-  body .content-footer {
-    margin-top: 5em;
-    padding: 4em 0;
-    background-color: #594F49; }
-  body .content-footer > p {
-    color: white; }
-  body .social {
-    padding: 0;
-    list-style: none; }
-  body .social > li {
-    display: inline-block;
-    margin-right: 1em; }
-  @media screen and (max-width: 500px) {
-    body .masthead {
-      padding: 3em 0; }
-    body .masthead-heading {
-      font-size: 3em; } }
-  body ::selection {
-    background: #FFE799; }
-
-.rojo {
-  color: red; }
-
-.verde {
-  color: green; }
-
-.azul {
-  color: blue; }
-
-.mates {
-  background-color: red;
-  font-size: 2rem; }
-
-.numero1, .numero2 {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
+h1 {
+  font-size: 60px;
   text-align: center; }
 
-.mates {
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  background-color: aquamarine; }
+.cardpadre {
+  text-align: center; }
+
+.about-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1; }
+
+.about-section {
+  background: url(fondo2.jpg) no-repeat left;
+  background-size: 100%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0; }
+
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px; }
+
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900; }
+
+.text {
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px; }
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px; }
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 70px; } }
+
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px; }
+  .inner-container {
+    width: 100%; } }
+
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0; }
+  .inner-container {
+    padding: 50px; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
